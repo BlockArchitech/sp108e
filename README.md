@@ -15,7 +15,7 @@ for each controller.
 
 ### Installation
 
-Copy or clone into `<config_dir>/custom_components/sp108e_ws2811/`.
+Copy or clone into `<config_dir>/custom_components/sp108e/`.
 
 Use the config flow via the UI to setup.
 
