@@ -1,15 +1,11 @@
-# sp108e_ws2815
+# sp108e_ws2811
 
-This integration is for the ALITOVE WS2812B WS2811 WS2801 LED WiFi Controller
-https://www.amazon.com/gp/product/B07DDB6JHJ/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1
+Integrates SP108E Wi-Fi 'LED SHOP' controllers into Home Assistant.
 
-tested with two controllers so far using a BTF-LIGHTING WS2815 (Upgraded WS2812B) 16.4ft 300
-Pixels Magic Dream Color Individually Addressable RGB LED Flexible Strip Light 5050 SMD Dual
-Signal IP30 Non-Waterproof DC12V Black PCB
-https://www.amazon.com/gp/product/B07LG6J39V/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+Tested using:
+- SP108E (BTF-LIGHTING brand)
+- WS2811 String
 
-on / off, color and brightness are supported, mono color effects are good,
-presets with colors work but ymmv with rgb wiring...
 
 built using https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_light
 and https://github.com/kylezimmerman/pyledshop as a base.
@@ -19,6 +15,10 @@ for each controller.
 
 ### Installation
 
-Copy or clone into `<config_dir>/custom_components/sp108e_ws2815/`.
+Copy or clone into `<config_dir>/custom_components/sp108e_ws2811/`.
 
-if your upgrading remove old configuration.yaml entry.
+Use the config flow via the UI to setup.
+
+### Note
+
+I've used other LED strips with this (in fact - the original project uses as WS2815, this fork uses WS2811) and they do work, however I do want to add an option to the config flow to select certain strips to use.
