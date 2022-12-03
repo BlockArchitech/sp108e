@@ -1,4 +1,4 @@
-# sp108e_ws2811
+# sp108e
 
 Integrates SP108E Wi-Fi 'LED SHOP' controllers into Home Assistant.
 
@@ -21,4 +21,4 @@ Use the config flow via the UI to setup.
 
 ### Note
 
-I've used other LED strips with this (in fact - the original project uses as WS2815, this fork uses WS2811) and they do work, however I do want to add an option to the config flow to select certain strips to use.
+I've used other LED strips with this (in fact - the original project uses as WS2815, this fork uses WS2811) and they do work, however Any strip that supports the SP108E should work, and if it doesn't it is simply a limitation of the hardware.
